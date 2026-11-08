@@ -1,0 +1,9 @@
+{
+ "id": "vitko",
+ "name": "Vitko Runners",
+ "size": "up to 2 vCPU / 8 GB",
+ "track": "A",
+ "price_ref": "vitko-2vcpu",
+ "runs_on": "Vitko Runners label",
+ "note": "Every workload, codex-lint included, runs at 2 vCPU / 8 GiB; the guest has swap, as GitHub-hosted runners do (the probe records memory and swap per job)."
+}

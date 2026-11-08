@@ -1,0 +1,19 @@
+{
+ "id": "namespace2",
+ "name": "Namespace, 2 vCPU",
+ "size": "2 vCPU / 8 GB",
+ "track": "A",
+ "price_ref": "namespace-2vcpu-8gb",
+ "runs_on": "namespace-profile-rb-2x8",
+ "accelerators": "Cache Volumes enabled on the runner profile at 20 GB, with container images, git checkouts, toolchain downloads and action downloads on. No workflow change; nscloud-cache-action is not used (build-output persistence is excluded, as in v1).",
+ "profile": {
+  "name": "rb-2x8",
+  "cache_volume_gb": 20,
+  "layers": [
+   "container-images",
+   "git-checkouts",
+   "toolchains",
+   "action-downloads"
+  ]
+ }
+}
